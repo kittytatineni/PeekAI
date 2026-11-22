@@ -1,0 +1,50 @@
+[
+  {
+    "id": "syn-syllabus-01",
+    "task": "syllabus",
+    "input": {
+      "text": "COURSE OUTLINE\nCOMP9991 - Foundations of Data Structures\nOverview: Students study linked lists, stacks, queues and binary search trees.\nTopics: Week 1 linked lists. Week 2 stacks and queues. Week 3 binary search trees.\nAssessments: Quiz 1 worth 10%, due 20 March 2027. Assignment 1 worth 30%, due 10 April 2027.\nLearning outcomes: implement linked lists and explain tree traversal. This course is synthetic for evaluation."
+    },
+    "expected": {
+      "course_code": "COMP9991",
+      "course_name": "Foundations of Data Structures",
+      "assessment_names": [
+        "Quiz 1",
+        "Assignment 1"
+      ]
+    }
+  },
+  {
+    "id": "syn-plan-01",
+    "task": "study_plan",
+    "input": {
+      "analysis": {
+        "course_code": "COMP9991",
+        "topics": [
+          {
+            "title": "Linked lists"
+          },
+          {
+            "title": "Stacks"
+          }
+        ],
+        "assessments": []
+      },
+      "hours_per_week": 3,
+      "student_goal": "Understand linked lists and stacks"
+    },
+    "expected": {}
+  },
+  {
+    "id": "syn-quiz-01",
+    "task": "quiz",
+    "input": {
+      "course": "COMP9991",
+      "topic": "Stacks",
+      "context": "A stack is a last-in-first-out data structure. Push adds to top; pop removes from top.",
+      "difficulty": "Foundation",
+      "count": 2
+    },
+    "expected": {}
+  }
+]

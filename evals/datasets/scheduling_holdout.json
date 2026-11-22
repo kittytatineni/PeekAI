@@ -1,0 +1,14 @@
+{
+  "dataset_id": "scheduling-holdout-v1",
+  "origin": "Synthetic cases based on observed PeekAI scheduling failure patterns; not user records",
+  "cases": [
+    {"id":"practice-w1","kind":"Topic","availableFrom":"2026-11-23","weekEndExclusive":"2026-11-23","expectedEndExclusive":"2026-11-30","expectedShifted":true},
+    {"id":"practice-w2","kind":"Topic","availableFrom":"2026-11-30","weekEndExclusive":"2026-11-30","expectedEndExclusive":"2026-12-07","expectedShifted":true},
+    {"id":"practice-w7","kind":"Topic","availableFrom":"2027-01-04","weekEndExclusive":"2027-01-04","expectedEndExclusive":"2027-01-11","expectedShifted":true},
+    {"id":"review-next-week","kind":"Revision","availableFrom":"2027-01-11","weekEndExclusive":"2027-01-11","expectedEndExclusive":"2027-01-18","expectedShifted":true},
+    {"id":"topic-in-week","kind":"Topic","availableFrom":"2026-11-18","weekEndExclusive":"2026-11-23","expectedEndExclusive":"2026-11-23","expectedShifted":false},
+    {"id":"assessment-hard-date","kind":"Assessment","availableFrom":"2026-11-23","weekEndExclusive":"2026-11-23","expectedEndExclusive":"2026-11-23","expectedShifted":false},
+    {"id":"manual-no-week","kind":"Manual","availableFrom":"2026-11-23","expectedShifted":false},
+    {"id":"far-future-release","kind":"Topic","availableFrom":"2026-12-14","weekEndExclusive":"2026-11-23","expectedEndExclusive":"2026-11-23","expectedShifted":false}
+  ]
+}

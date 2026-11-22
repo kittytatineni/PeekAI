@@ -1,0 +1,59 @@
+[
+  {
+    "id": "hold-syllabus-01",
+    "task": "syllabus",
+    "input": {
+      "text": "COURSE OUTLINE\nCOMP8882 - Introduction to Databases\nOverview: Students learn relational data modelling, SQL querying, database normalisation and transactions.\nTopics: Week 1 relational models and keys. Week 2 SQL SELECT and JOIN queries. Week 3 first, second and third normal forms. Week 4 transactions and ACID properties.\nAssessments: SQL Lab worth 15%, due 12 May 2027. Database Design Project worth 35%, due 2 June 2027. Final Exam worth 50%, due 18 June 2027.\nLearning outcomes: construct SQL queries, normalise relational schemas and explain transaction properties. This outline is synthetic and intended solely for evaluation."
+    },
+    "expected": {
+      "course_code": "COMP8882",
+      "course_name": "Introduction to Databases",
+      "assessment_names": ["SQL Lab", "Database Design Project", "Final Exam"]
+    }
+  },
+  {
+    "id": "hold-plan-01",
+    "task": "study_plan",
+    "input": {
+      "analysis": {
+        "course_code": "COMP8882",
+        "course_name": "Introduction to Databases",
+        "topics": [
+          {"title": "Relational models and keys"},
+          {"title": "SQL SELECT and JOIN queries", "prerequisites": ["Relational models and keys"]},
+          {"title": "Database normalisation", "prerequisites": ["Relational models and keys"]}
+        ],
+        "assessments": []
+      },
+      "assessment_date": "",
+      "hours_per_week": 2,
+      "student_goal": "Practise SQL queries and understand normalisation"
+    },
+    "expected": {}
+  },
+  {
+    "id": "hold-quiz-01",
+    "task": "quiz",
+    "input": {
+      "course": "COMP8882",
+      "topic": "SQL JOIN operations",
+      "context": "An INNER JOIN returns rows with matching join keys in both tables. A LEFT JOIN returns all rows from the left table and matching rows from the right table; unmatched right-side fields are NULL. Students should distinguish these operations using simple table examples.",
+      "difficulty": "Intermediate",
+      "count": 2
+    },
+    "expected": {}
+  },
+  {
+    "id": "hold-mark-01",
+    "task": "mark",
+    "input": {
+      "question": "What does an INNER JOIN return, and how does it differ from a LEFT JOIN?",
+      "ideal_answer": "Award 0.5 for explaining that INNER JOIN returns only rows with matching keys in both tables. Award 0.5 for explaining that LEFT JOIN includes all rows from the left table, with NULL right-side fields when there is no match.",
+      "answer": "INNER JOIN only includes records where the two tables have matching keys. LEFT JOIN also keeps rows from the left table that have no matching right row, and the missing right values are NULL."
+    },
+    "expected": {
+      "human_score": 1.0,
+      "keyword_baseline": 0.5
+    }
+  }
+]

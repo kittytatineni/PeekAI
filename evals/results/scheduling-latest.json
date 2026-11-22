@@ -1,0 +1,127 @@
+{
+  "run_at_utc": "2026-11-22T01:51:45.489Z",
+  "dataset": "scheduling-holdout-v1",
+  "dataset_origin": "Synthetic cases based on observed PeekAI scheduling failure patterns; not user records",
+  "metric": "exact-match accuracy for practice-window end and shift classification",
+  "baseline": {
+    "correct": 4,
+    "total": 8,
+    "accuracy": 0.5,
+    "cases": [
+      {
+        "id": "practice-w1",
+        "pass": false,
+        "expectedEndExclusive": "2026-11-30",
+        "actualEndExclusive": "2026-11-23"
+      },
+      {
+        "id": "practice-w2",
+        "pass": false,
+        "expectedEndExclusive": "2026-12-07",
+        "actualEndExclusive": "2026-11-30"
+      },
+      {
+        "id": "practice-w7",
+        "pass": false,
+        "expectedEndExclusive": "2027-01-11",
+        "actualEndExclusive": "2027-01-04"
+      },
+      {
+        "id": "review-next-week",
+        "pass": false,
+        "expectedEndExclusive": "2027-01-18",
+        "actualEndExclusive": "2027-01-11"
+      },
+      {
+        "id": "topic-in-week",
+        "pass": true,
+        "expectedEndExclusive": "2026-11-23",
+        "actualEndExclusive": "2026-11-23"
+      },
+      {
+        "id": "assessment-hard-date",
+        "pass": true,
+        "expectedEndExclusive": "2026-11-23",
+        "actualEndExclusive": "2026-11-23"
+      },
+      {
+        "id": "manual-no-week",
+        "pass": true,
+        "expectedEndExclusive": null,
+        "actualEndExclusive": null
+      },
+      {
+        "id": "far-future-release",
+        "pass": true,
+        "expectedEndExclusive": "2026-11-23",
+        "actualEndExclusive": "2026-11-23"
+      }
+    ]
+  },
+  "candidate": {
+    "correct": 8,
+    "total": 8,
+    "accuracy": 1,
+    "cases": [
+      {
+        "id": "practice-w1",
+        "pass": true,
+        "expectedEndExclusive": "2026-11-30",
+        "actualEndExclusive": "2026-11-30"
+      },
+      {
+        "id": "practice-w2",
+        "pass": true,
+        "expectedEndExclusive": "2026-12-07",
+        "actualEndExclusive": "2026-12-07"
+      },
+      {
+        "id": "practice-w7",
+        "pass": true,
+        "expectedEndExclusive": "2027-01-11",
+        "actualEndExclusive": "2027-01-11"
+      },
+      {
+        "id": "review-next-week",
+        "pass": true,
+        "expectedEndExclusive": "2027-01-18",
+        "actualEndExclusive": "2027-01-18"
+      },
+      {
+        "id": "topic-in-week",
+        "pass": true,
+        "expectedEndExclusive": "2026-11-23",
+        "actualEndExclusive": "2026-11-23"
+      },
+      {
+        "id": "assessment-hard-date",
+        "pass": true,
+        "expectedEndExclusive": "2026-11-23",
+        "actualEndExclusive": "2026-11-23"
+      },
+      {
+        "id": "manual-no-week",
+        "pass": true,
+        "expectedEndExclusive": null,
+        "actualEndExclusive": null
+      },
+      {
+        "id": "far-future-release",
+        "pass": true,
+        "expectedEndExclusive": "2026-11-23",
+        "actualEndExclusive": "2026-11-23"
+      }
+    ]
+  },
+  "dateTests": [
+    {
+      "name": "exclusive-boundary",
+      "pass": true
+    },
+    {
+      "name": "no-earlier-dates",
+      "pass": true
+    }
+  ],
+  "caveat": "Unit-level date-policy evaluation only; does not measure end-to-end task placement, LLM quality, or real-world accuracy."
+}

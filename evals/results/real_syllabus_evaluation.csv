@@ -1,0 +1,6 @@
+course,valid_response,course_code_correct,assessment_names_correct,assessment_weights_correct,expected_assessments,dates_correct,dates_incorrect,dates_review,error
+COMP6841,True,True,3,3,3,0,0,3,
+ACTL2111,True,True,3,3,3,3,0,0,
+DDES1160,True,True,2,2,2,0,0,2,
+BIOC3111,True,True,4,4,4,1,0,3,
+LAWS1022,True,True,3,3,3,2,0,1,

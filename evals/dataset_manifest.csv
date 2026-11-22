@@ -1,0 +1,11 @@
+relative_path,bytes,sha256,source_type
+datasets/development/README.md,118,c775aa948542226f5c0d7ad6678330a1bef699248796a8159e9fb63973eaf736,Hand-authored synthetic test case or notes
+datasets/development/live_ai_cases.json,1449,080cf744dafc7f7fb65dda53b146b19fa8781f5cbe59262f9142b54a4da2f830,Hand-authored synthetic test case or notes
+datasets/held_out/live_ai_cases.json,2795,f74140d9f3f5e5cf42d3445e2af07985f7a66f87a97c266f39067945477dd30e,Hand-authored synthetic test case or notes
+datasets/held_out/response_validation.json,4043,fc0779ef85ab799d8ebf59aa594adc0aa51f9f488fa33ecc5f757ad17e60441e,Hand-authored synthetic test case or notes
+datasets/real_syllabus/ACTS2111.pdf,169777,bc4d5f6636ce88800a840b03c8d7e46f4345ed11d100fbeb3c408d8664f48db4,UNSW course outline; user-supplied; redistribution rights unverified
+datasets/real_syllabus/BIOC3111.pdf,187740,773246dada50328c73b5fc81d14f2646b3118561191cef18046545c5535ebc91,UNSW course outline; user-supplied; redistribution rights unverified
+datasets/real_syllabus/COMP6841.pdf,194821,328936435adc173ddb43d884d3a878449d2a2fa825565fc031d75972a0839f4f,UNSW course outline; user-supplied; redistribution rights unverified
+datasets/real_syllabus/DDES1160.pdf,212234,6e34214e66b1443e7bf17401f6e979822b946a389be849016527cdc301b51537,UNSW course outline; user-supplied; redistribution rights unverified
+datasets/real_syllabus/LAWS1022.pdf,176250,0f3fa847b20b3e81e4b7ca7fc1c5c262f39930c91b25842da8c8f339d7b4ffcf,UNSW course outline; user-supplied; redistribution rights unverified
+datasets/scheduling_holdout.json,1422,365dca341dce79944c76e50891ce92d633cdfd5e1cc3ec822ec077c2d56eb32a,Hand-authored synthetic test case or notes

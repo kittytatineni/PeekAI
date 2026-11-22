@@ -1,0 +1,490 @@
+real-comp6841
+[
+  {
+    "title": "Security Engineering Fundamentals",
+    "subtopics": [
+      "Fundamental ideas of security",
+      "Thinking like an attacker",
+      "Case studies of failing systems"
+    ],
+    "learning_outcomes": [
+      "Think like a security engineer and analyse systems that fail",
+      "Apply a security engineering approach to real-world scenarios considering cost, human factors, risk, and privacy"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Course description: fundamental ideas, thinking like an attacker, failing systems"
+  },
+  {
+    "title": "Cryptography",
+    "subtopics": [
+      "Cryptographic primitives and protocols",
+      "Confidentiality, integrity, authentication",
+      "Weaknesses and appropriate use"
+    ],
+    "learning_outcomes": [
+      "Apply fundamental cryptographic primitives and protocols to achieve desired properties",
+      "Explain weaknesses and appropriate use of cryptographic approaches"
+    ],
+    "prerequisites": [],
+    "source_evidence": "CLO5: cryptographic primitives, protocols, weaknesses, appropriate use"
+  },
+  {
+    "title": "Memory Corruption and Exploitation",
+    "subtopics": [
+      "Classes of memory corruption vulnerabilities",
+      "Currently deployed countermeasures",
+      "Binary exploitation"
+    ],
+    "learning_outcomes": [
+      "Explain the main classes of memory corruption vulnerabilities",
+      "Evaluate relative strengths and weaknesses of deployed countermeasures"
+    ],
+    "prerequisites": [],
+    "source_evidence": "CLO8: memory corruption vulnerabilities and countermeasures"
+  },
+  {
+    "title": "Web and Binary Security Attacks",
+    "subtopics": [
+      "Attacking web-based systems",
+      "Attacking binaries"
+    ],
+    "learning_outcomes": [
+      "Successfully attack common vulnerabilities in web based systems and binaries"
+    ],
+    "prerequisites": [],
+    "source_evidence": "CLO9: attack common vulnerabilities in web systems and binaries"
+  },
+  {
+    "title": "Cybersecurity in Context",
+    "subtopics": [
+      "Related fields: safety science, psychology, cybercrime",
+      "Risk, cost, human factors, privacy",
+      "Historical context and current trends"
+    ],
+    "learning_outcomes": [
+      "Assess likely future trends and emerging risks from historical context and current developments",
+      "Explain cybersecurity's relationship to related fields including safety science, psychology, and cybercrime"
+    ],
+    "prerequisites": [],
+    "source_evidence": "CLO1, CLO2, CLO3: trends, related fields, key decision factors"
+  },
+  {
+    "title": "Applied Security Project and Professional Skills",
+    "subtopics": [
+      "Self-directed security project",
+      "Professional competencies and ethical behaviour",
+      "Randomness and privacy in design"
+    ],
+    "learning_outcomes": [
+      "Demonstrate professional competencies including self-directed research, time management, and ethical behaviour",
+      "Apply information and work measures, randomness, and privacy to design solutions for real-world security problems"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Course aims 4-5; CLO4, CLO6: applied skills, professionalism, randomness"
+  }
+]
+
+real-acts2111
+[
+  {
+    "title": "Time Value of Money and Valuation of Cash Flows",
+    "subtopics": [
+      "Mathematics of compound interest",
+      "Types of interest",
+      "Present value and valuation of cash flows",
+      "Valuing contingent cash flows under different interest assumptions"
+    ],
+    "learning_outcomes": [
+      "Identify and clarify the concept of time value of money and its applications",
+      "Explain various types of interest and their applications",
+      "Articulate the relationship between present value, cash flows, and interest rate risk"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Module 1: Time Value of Money and Valuation of Cash Flows"
+  },
+  {
+    "title": "Loan Valuation and Project Appraisal Techniques",
+    "subtopics": [
+      "Loan valuation",
+      "Project appraisal techniques",
+      "Investment appraisal applications",
+      "Tax and transaction costs in valuation problems"
+    ],
+    "learning_outcomes": [
+      "Modify simple valuation problems to include tax and transaction costs",
+      "Apply financial valuation concepts to practical situations like investment appraisals",
+      "Communicate complex financial concepts effectively"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Module 2: Loan Valuation and Project Appraisal Techniques"
+  },
+  {
+    "title": "Interest Rate Risk",
+    "subtopics": [
+      "Yield curves",
+      "Immunisation",
+      "Relationship between interest rates and present value"
+    ],
+    "learning_outcomes": [
+      "Articulate the relationship between present value, cash flows, and interest rate risk",
+      "Assess the reasonableness of financial calculations and their underlying assumptions"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Module 3: Interest Rate Risk"
+  },
+  {
+    "title": "Valuation of Financial Securities",
+    "subtopics": [
+      "Annuities",
+      "Bonds",
+      "Shares and loans",
+      "Market conventions in securities and money markets"
+    ],
+    "learning_outcomes": [
+      "Describe and value various financial securities including bonds, shares, loans and annuities",
+      "Outline basic market conventions in securities and money markets"
+    ],
+    "prerequisites": [],
+    "source_evidence": "analysis and valuation of annuities, bonds, loans and derivative securities"
+  },
+  {
+    "title": "Derivatives",
+    "subtopics": [
+      "Forwards and futures contracts",
+      "Options"
+    ],
+    "learning_outcomes": [
+      "Describe and value forwards, futures contracts and options"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Module 4: Derivatives"
+  },
+  {
+    "title": "Stochastic Returns",
+    "subtopics": [
+      "Introduction to stochastic interest rate models",
+      "Expected value and variance of accumulation under stochastic interest",
+      "Actuarial applications"
+    ],
+    "learning_outcomes": [
+      "Develop formulas for the expected value and variance of accumulation under stochastic interest"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Module 5: Stochastic Returns"
+  }
+]
+
+real-ddes1160
+[
+  {
+    "title": "Textile Fibres, Structures and Processes",
+    "subtopics": [
+      "Textile fibres",
+      "Fabric structures",
+      "Textile processes",
+      "Industry terminology"
+    ],
+    "learning_outcomes": [
+      "Identify and describe textile fibres, structures and processes using language and terminology of the textiles industry"
+    ],
+    "prerequisites": [],
+    "source_evidence": "CLO1: Identify and describe textile fibres, structures and processes"
+  },
+  {
+    "title": "Constructed Textile Techniques",
+    "subtopics": [
+      "Plying fibres",
+      "Weave and interlacing",
+      "Hand knitting",
+      "Felting"
+    ],
+    "learning_outcomes": [
+      "Learn techniques to construct experimental textiles",
+      "Document processes and reflect on opportunities and challenges"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Weeks 1-4 Studio: Plying Fibres, Weave & Interlacing, Hand Knitting, Felting"
+  },
+  {
+    "title": "Stitch and Fabric Manipulation",
+    "subtopics": [
+      "Hand stitch",
+      "Sewing machine stitch",
+      "Fabric manipulation"
+    ],
+    "learning_outcomes": [
+      "Apply stitching and fabric manipulation techniques in experimental textile making"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Week 5: Hand Stitch, Sewing Machine Stitch & Fabric Manipulation"
+  },
+  {
+    "title": "Surface Patterning and Colouring Cloth",
+    "subtopics": [
+      "Handstitch, applique and patchwork",
+      "Mordant printing",
+      "Screen printing with ink and mordants"
+    ],
+    "learning_outcomes": [
+      "Learn techniques to colour and pattern cloth",
+      "Document and reflect on each technique in a journal"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Weeks 7-9: Handstitch, Applique & Patchwork; Screen Printing with Ink and Mordants"
+  },
+  {
+    "title": "Natural Dye and Thermoplastics",
+    "subtopics": [
+      "Natural dye processes",
+      "Thermoplastics"
+    ],
+    "learning_outcomes": [
+      "Apply natural dye and thermoplastic techniques in textile experimentation"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Week 10: Natural Dye & Thermoplastics Induction: Dye Lab"
+  },
+  {
+    "title": "Sustainable and Circular Textile Practices",
+    "subtopics": [
+      "Circular economy principles",
+      "Textile life-cycle and impact",
+      "REMAKE CHALLENGE: transforming textile waste",
+      "Diverting cloth from landfill"
+    ],
+    "learning_outcomes": [
+      "Implement circular practices to transform textile waste through experimental textile techniques",
+      "Develop a sustainable narrative as a value-led designer"
+    ],
+    "prerequisites": [],
+    "source_evidence": "REMAKE CHALLENGE to transform textile waste, saving it from landfill"
+  },
+  {
+    "title": "Practice-Based Research and Documentation",
+    "subtopics": [
+      "Research into textile artists' and designers' practices",
+      "Journal documentation",
+      "Referenced visual and written analysis",
+      "Investigation of textile theorists and writers"
+    ],
+    "learning_outcomes": [
+      "Conduct practice-based research into textile artists'/designers' practices",
+      "Reflect on experimental textiles using documentation and evaluation methods appropriate to the textiles design industry"
+    ],
+    "prerequisites": [],
+    "source_evidence": "CLO2: Conduct practice-based research into textile artist's/designer's practices"
+  },
+  {
+    "title": "Conceptual and Narrative Textile Design",
+    "subtopics": [
+      "Storytelling via patterns, materials and construction",
+      "Cohesive conceptual basis and design narrative",
+      "Local textile practitioner culture inspiring surface designs"
+    ],
+    "learning_outcomes": [
+      "Design and create textiles with an integrated/cohesive conceptual basis/design narrative"
+    ],
+    "prerequisites": [],
+    "source_evidence": "CLO3: Design and create textiles with an integrated/ cohesive conceptual basis"
+  }
+]
+
+real-bioc3111
+[
+  {
+    "title": "Protein Sequences, Evolution and Bioinformatics",
+    "subtopics": [
+      "Sequences and protein evolution",
+      "Protein bioinformatics",
+      "Post-translational modifications"
+    ],
+    "learning_outcomes": [
+      "Explain protein sequence, evolution and post-translational modification concepts",
+      "Explain bioinformatics approaches used in protein analysis"
+    ],
+    "prerequisites": [
+      "BIOC2101",
+      "BIOC2201"
+    ],
+    "source_evidence": "Weeks 1-2 lectures: Protein Evolution, Bioinformatics, Post Translational Modifications"
+  },
+  {
+    "title": "Protein Folding, Stability and Chaperones",
+    "subtopics": [
+      "Protein folding and stability",
+      "Protein folding and amyloid diseases",
+      "Molecular chaperones"
+    ],
+    "learning_outcomes": [
+      "Explain principles of protein folding and stability",
+      "Relate misfolding to amyloid diseases and chaperone function"
+    ],
+    "prerequisites": [
+      "BIOC2101",
+      "BIOC2201"
+    ],
+    "source_evidence": "Week 3 lectures: Folding and Stability, Amyloid Diseases, Molecular Chaperones"
+  },
+  {
+    "title": "Protein Interactions, Motors and Assemblies",
+    "subtopics": [
+      "Molecular motors and machines",
+      "Protein-protein interactions",
+      "Protein assemblies and cellular organisation"
+    ],
+    "learning_outcomes": [
+      "Explain protein-protein interactions and molecular motor mechanisms",
+      "Describe protein assemblies in infection and therapeutic design"
+    ],
+    "prerequisites": [
+      "BIOC2101",
+      "BIOC2201"
+    ],
+    "source_evidence": "Weeks 4 and 9 lectures: Molecular Motors, Protein-Protein Interactions, Protein Assemblies"
+  },
+  {
+    "title": "Proteomics and the Human Proteome",
+    "subtopics": [
+      "Proteomics fundamentals",
+      "Human Proteome Project",
+      "Clinical proteomics"
+    ],
+    "learning_outcomes": [
+      "Explain proteomics as large-scale study of cellular proteins",
+      "Describe the Human Proteome Project and clinical proteomics applications"
+    ],
+    "prerequisites": [
+      "BIOC2101",
+      "BIOC2201"
+    ],
+    "source_evidence": "Week 5 lectures: Proteomics I-II, Human Proteome Project, Clinical Proteomics"
+  },
+  {
+    "title": "Mass Spectrometry and Biophysics",
+    "subtopics": [
+      "Mass spectrometry I and II",
+      "Biophysics of proteins"
+    ],
+    "learning_outcomes": [
+      "Explain mass spectrometry methods for protein characterisation",
+      "Explain biophysical techniques in protein analysis"
+    ],
+    "prerequisites": [
+      "BIOC2101",
+      "BIOC2201"
+    ],
+    "source_evidence": "Week 7 lectures: Mass Spectrometry I-II, Biophysics"
+  },
+  {
+    "title": "Structural Biology and Structure Prediction",
+    "subtopics": [
+      "Methods in structural biology",
+      "Structure analysis by cryo-EM",
+      "Machine learning structure prediction"
+    ],
+    "learning_outcomes": [
+      "Explain structural biology methods including cryo-EM",
+      "Describe machine learning approaches to structure prediction"
+    ],
+    "prerequisites": [
+      "BIOC2101",
+      "BIOC2201"
+    ],
+    "source_evidence": "Week 8 lectures: Structural Biology Methods, Cryo-EM, Machine Learning Prediction"
+  },
+  {
+    "title": "Protein Function and Engineering",
+    "subtopics": [
+      "From structure to function",
+      "Protein function as a physical process",
+      "Protein engineering"
+    ],
+    "learning_outcomes": [
+      "Link protein structure to function as a physical process",
+      "Explain protein engineering principles"
+    ],
+    "prerequisites": [
+      "BIOC2101",
+      "BIOC2201"
+    ],
+    "source_evidence": "Weeks 9-10 lectures: Structure to Function, Protein Function, Protein Engineering"
+  }
+]
+
+real-laws1022
+[
+  {
+    "title": "Assault",
+    "subtopics": [
+      "Aggravated assault",
+      "Domestic and family violence"
+    ],
+    "learning_outcomes": [
+      "Identify and apply constituent elements of assault offences to hypothetical scenarios"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Main Topics list; Weeks 1 and 3 schedule"
+  },
+  {
+    "title": "Sexual Assault",
+    "subtopics": [],
+    "learning_outcomes": [
+      "Apply statutory interpretation to identify elements of sexual assault offences"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Main Topics list; Week 2 schedule"
+  },
+  {
+    "title": "Homicide",
+    "subtopics": [],
+    "learning_outcomes": [
+      "Analyse homicide offences within policy and social context"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Main Topics list; Weeks 3, 4, 8 schedule"
+  },
+  {
+    "title": "Defences",
+    "subtopics": [
+      "Mental illness and automatism",
+      "Self-defence and extreme provocation",
+      "Substantial impairment and intoxication"
+    ],
+    "learning_outcomes": [
+      "Analyse statutory and common law defences using legal element analysis"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Main Topics list; Weeks 5 and 7 schedule"
+  },
+  {
+    "title": "Dishonest Acquisition",
+    "subtopics": [],
+    "learning_outcomes": [
+      "Identify constituent elements of dishonest acquisition offences"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Main Topics list; Weeks 8 and 9 schedule"
+  },
+  {
+    "title": "Extending Criminal Liability",
+    "subtopics": [
+      "Complicity"
+    ],
+    "learning_outcomes": [
+      "Explain how criminal liability extends through complicity"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Main Topics list; Weeks 9 and 10 schedule"
+  },
+  {
+    "title": "Sentencing",
+    "subtopics": [
+      "Five self-paced online modules"
+    ],
+    "learning_outcomes": [
+      "Apply sentencing law to a problem scenario"
+    ],
+    "prerequisites": [],
+    "source_evidence": "Main Topics list; General Schedule Information"
+  }
+]

@@ -1,0 +1,4 @@
+case_id,task,factual_correctness_0_to_2,syllabus_relevance_0_to_2,difficulty_fit_0_to_2,feedback_quality_0_to_2,unsupported_claims_count,reviewer_notes
+syn-syllabus-01,syllabus,,,,,,
+syn-plan-01,study_plan,,,,,,
+syn-quiz-01,quiz,,,,,,

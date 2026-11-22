@@ -1,0 +1,119 @@
+{
+  "created_utc": "20261120T155207Z",
+  "split": "development",
+  "model": "scx-GLM-5.3",
+  "cases": [
+    {
+      "id": "syn-syllabus-01",
+      "task": "syllabus",
+      "status": "ok",
+      "course_code_match": true,
+      "course_name_match": true,
+      "assessment_name_recall": 1.0,
+      "assessment_name_baseline_recall": 0.0,
+      "topic_count": 4,
+      "output": {
+        "course_code": "COMP9991",
+        "course_name": "Foundations of Data Structures",
+        "overview": "Students study linked lists, stacks, queues and binary search trees, with topics scheduled across Weeks 1-3.",
+        "topics": [
+          {
+            "title": "Linked Lists",
+            "subtopics": [],
+            "learning_outcomes": [
+              "Implement linked lists"
+            ],
+            "prerequisites": [],
+            "source_evidence": "Week 1 linked lists"
+          },
+          {
+            "title": "Stacks",
+            "subtopics": [],
+            "learning_outcomes": [],
+            "prerequisites": [],
+            "source_evidence": "Week 2 stacks and queues"
+          },
+          {
+            "title": "Queues",
+            "subtopics": [],
+            "learning_outcomes": [],
+            "prerequisites": [],
+            "source_evidence": "Week 2 stacks and queues"
+          },
+          {
+            "title": "Binary Search Trees",
+            "subtopics": [],
+            "learning_outcomes": [
+              "Explain tree traversal"
+            ],
+            "prerequisites": [],
+            "source_evidence": "Week 3 binary search trees"
+          }
+        ],
+        "assessments": [
+          {
+            "name": "Quiz 1",
+            "date": "20 March 2027",
+            "weight": "10%"
+          },
+          {
+            "name": "Assignment 1",
+            "date": "10 April 2027",
+            "weight": "30%"
+          }
+        ],
+        "study_notes": [
+          "This course is synthetic for evaluation."
+        ]
+      },
+      "latency_seconds": 16.339
+    },
+    {
+      "id": "syn-plan-01",
+      "task": "study_plan",
+      "status": "error",
+      "error_type": "ValueError",
+      "error": "The AI response was truncated because it reached the maximum output token limit.",
+      "latency_seconds": 17.921
+    },
+    {
+      "id": "syn-quiz-01",
+      "task": "quiz",
+      "status": "ok",
+      "count_match": true,
+      "all_have_prompts": true,
+      "output": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "A stack is described as a last-in-first-out (LIFO) structure. What does pop remove?",
+            "options": [
+              "The bottom item",
+              "The top item",
+              "The middle item",
+              "A random item"
+            ],
+            "answer_index": 1,
+            "ideal_answer": "The top item",
+            "explanation": "Push adds to the top; pop removes from the top, so the most recently added item leaves first.",
+            "skill": "Stack LIFO behaviour"
+          },
+          {
+            "id": "q2",
+            "type": "written",
+            "prompt": "Starting with an empty stack, you push A, push B, push C, then pop once. Which item is removed, and which item is now on top?",
+            "options": [],
+            "answer_index": null,
+            "ideal_answer": "C is removed; B is now on top. Marking guide: 1 mark for identifying C as removed, 1 mark for B as the new top.",
+            "explanation": "",
+            "skill": "Tracing push and pop operations"
+          }
+        ]
+      },
+      "latency_seconds": 2.795
+    }
+  ],
+  "note": "Synthetic cases; semantic judgments require human review.",
+  "success_rate": 0.6666666666666666
+}

@@ -1,0 +1,150 @@
+
+/* Smart Planner */
+
+.planner-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.planner-progress strong {
+  font-size: 25px;
+  color: #239b88;
+}
+
+.planner-progress span {
+  font-size: 12px;
+  color: #8290a2;
+}
+
+.planner-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 22px;
+}
+
+.planner-summary-card {
+  background: white;
+  border: 1px solid #e8edf3;
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.planner-summary-card span {
+  font-size: 13px;
+  color: #8290a2;
+}
+
+.planner-summary-card strong {
+  font-size: 27px;
+}
+
+.planner-panel {
+  padding: 25px;
+  margin-bottom: 22px;
+}
+
+.planner-form {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.planner-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-width: 130px;
+}
+
+.planner-title-field {
+  flex: 2;
+  min-width: 200px;
+}
+
+.planner-field label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.planner-field input,
+.planner-field select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dfe5ed;
+  border-radius: 9px;
+  background: white;
+  color: #202c3c;
+  outline: none;
+}
+
+.planner-field input:focus,
+.planner-field select:focus {
+  border-color: #55b9a7;
+}
+
+.task-count {
+  font-size: 12px;
+  color: #8290a2;
+}
+
+.planner-task-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 17px 0;
+  border-bottom: 1px solid #edf0f4;
+}
+
+.planner-task-row:last-child {
+  border-bottom: none;
+}
+
+.planner-task-row .task-details {
+  flex: 1;
+}
+
+.delete-task-button {
+  border: none;
+  background: transparent;
+  color: #a0aaba;
+  font-size: 23px;
+  padding: 4px 9px;
+  border-radius: 7px;
+}
+
+.delete-task-button:hover {
+  background: #fff0f0;
+  color: #d45b5b;
+}
+
+.planner-empty {
+  color: #8290a2;
+  font-size: 13px;
+  padding: 20px 0;
+}
+
+@media (max-width: 650px) {
+  .planner-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .planner-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .planner-field {
+    width: 100%;
+  }
+}
+
+/* Unified planner workspace */
+.planner-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 18px}.planner-tabs button,.planner-clear,.planner-add-toggle,.planner-row-actions button,.planner-edit button{border:1px solid #d9e5e7;border-radius:9px;padding:9px 12px;background:#fff;color:#28545a;cursor:pointer}.planner-tabs button.active{background:#e1f5f0;border-color:#37a58d;font-weight:700}.planner-filters{display:grid;grid-template-columns:minmax(180px,2fr) repeat(3,minmax(110px,1fr)) auto;gap:9px;margin-bottom:15px}.planner-filters input,.planner-filters select,.planner-edit input,.planner-edit select{min-width:0;width:100%;border:1px solid #dbe3e8;border-radius:8px;padding:9px;background:#fff}.planner-scroll-list{max-height:550px;overflow-y:auto;overscroll-behavior:contain;padding-right:6px}.planner-workspace-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.planner-workspace-row .task-details{flex:1;min-width:190px}.planner-status{display:block;text-transform:capitalize;margin-top:5px;color:#667782}.planner-status-missed{color:#c05439}.planner-status-unscheduled{color:#a46d23}.planner-row-actions{display:flex;gap:5px;flex-wrap:wrap}.planner-row-actions button{padding:6px 9px;font-size:12px}.planner-edit{width:100%;display:grid;grid-template-columns:repeat(3,minmax(130px,1fr));gap:10px;background:#f6faf9;border-radius:10px;padding:14px}.planner-edit label{font-size:12px;display:grid;gap:5px}.planner-add-toggle{margin-bottom:10px;font-weight:700}@media(max-width:850px){.planner-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.planner-edit{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:540px){.planner-filters,.planner-edit{grid-template-columns:1fr}}

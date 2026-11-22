@@ -1,0 +1,180 @@
+{
+  "created_utc": "20261120T163807Z",
+  "split": "development",
+  "model": "scx-GLM-5.3",
+  "cases": [
+    {
+      "id": "syn-syllabus-01",
+      "task": "syllabus",
+      "status": "ok",
+      "course_code_match": true,
+      "course_name_match": true,
+      "assessment_name_recall": 1.0,
+      "assessment_name_baseline_recall": 0.0,
+      "topic_count": 4,
+      "output": {
+        "course_code": "COMP9991",
+        "course_name": "Foundations of Data Structures",
+        "overview": "Students study linked lists, stacks, queues and binary search trees, scheduled across Weeks 1-3.",
+        "topics": [
+          {
+            "title": "Linked Lists",
+            "subtopics": [],
+            "learning_outcomes": [
+              "Implement linked lists"
+            ],
+            "prerequisites": [],
+            "source_evidence": "Week 1 linked lists"
+          },
+          {
+            "title": "Stacks",
+            "subtopics": [],
+            "learning_outcomes": [],
+            "prerequisites": [],
+            "source_evidence": "Week 2 stacks and queues"
+          },
+          {
+            "title": "Queues",
+            "subtopics": [],
+            "learning_outcomes": [],
+            "prerequisites": [],
+            "source_evidence": "Week 2 stacks and queues"
+          },
+          {
+            "title": "Binary Search Trees",
+            "subtopics": [],
+            "learning_outcomes": [
+              "Explain tree traversal"
+            ],
+            "prerequisites": [],
+            "source_evidence": "Week 3 binary search trees"
+          }
+        ],
+        "assessments": [
+          {
+            "name": "Quiz 1",
+            "date": "20 March 2027",
+            "weight": "10%"
+          },
+          {
+            "name": "Assignment 1",
+            "date": "10 April 2027",
+            "weight": "30%"
+          }
+        ],
+        "study_notes": [
+          "This course is synthetic for evaluation.",
+          "Topics are scheduled weekly: linked lists (Week 1), stacks and queues (Week 2), binary search trees (Week 3)."
+        ]
+      },
+      "latency_seconds": 12.24
+    },
+    {
+      "id": "syn-plan-01",
+      "task": "study_plan",
+      "status": "ok",
+      "model_attempts": 1,
+      "max_token_limits": [
+        3000
+      ],
+      "first_attempt_success": true,
+      "days_in_range": true,
+      "within_weekly_budget": true,
+      "total_minutes": 180,
+      "output": {
+        "title": "Plan",
+        "rationale": "Two supplied topics with no prerequisites, so linked lists and stacks can be studied in sequence with spaced practice and review.",
+        "days": [
+          {
+            "day": 1,
+            "focus": "Linked lists",
+            "objective": "Understand how linked lists are structured and how nodes connect",
+            "activities": [
+              "recommended: sketch node-and-pointer diagrams",
+              "recommended: trace insertion at the head step by step"
+            ],
+            "estimated_minutes": 45,
+            "priority": "High"
+          },
+          {
+            "day": 2,
+            "focus": "Linked lists",
+            "objective": "Practice traversing, inserting, and deleting nodes",
+            "activities": [
+              "recommended: hand-trace operations on paper",
+              "recommended: review day 1 diagrams and correct mistakes"
+            ],
+            "estimated_minutes": 45,
+            "priority": "High"
+          },
+          {
+            "day": 3,
+            "focus": "Stacks",
+            "objective": "Understand the last-in, first-out behavior of stacks",
+            "activities": [
+              "recommended: trace push and pop operations",
+              "recommended: review linked list notes for connections you notice"
+            ],
+            "estimated_minutes": 45,
+            "priority": "High"
+          },
+          {
+            "day": 4,
+            "focus": "Linked lists and stacks",
+            "objective": "Consolidate understanding of both topics",
+            "activities": [
+              "recommended: mixed practice problems on both topics",
+              "recommended: self-quiz and review weak areas"
+            ],
+            "estimated_minutes": 45,
+            "priority": "Medium"
+          }
+        ],
+        "next_steps": [
+          "review progress after day 4 and adjust pacing",
+          "revisit any topic that feels unclear before moving on"
+        ]
+      },
+      "latency_seconds": 2.739
+    },
+    {
+      "id": "syn-quiz-01",
+      "task": "quiz",
+      "status": "ok",
+      "count_match": true,
+      "all_have_prompts": true,
+      "output": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Starting with an empty stack, you push 1, then 2, then 3. Which value does the first pop return?",
+            "options": [
+              "1",
+              "2",
+              "3",
+              "The stack is empty, so pop fails"
+            ],
+            "answer_index": 2,
+            "ideal_answer": "3",
+            "explanation": "A stack is last-in-first-out; 3 was pushed last, so it sits on top and is removed first by pop.",
+            "skill": "Applying LIFO order"
+          },
+          {
+            "id": "q2",
+            "type": "written",
+            "prompt": "In your own words, define a stack and describe what the push and pop operations do.",
+            "options": [],
+            "answer_index": null,
+            "ideal_answer": "Marking guide: 1 mark for stating a stack is last-in-first-out (LIFO); 1 mark for push adds an element to the top; 1 mark for pop removes the element from the top.",
+            "explanation": "Tests recall of the stack definition and its two core operations as covered in the syllabus.",
+            "skill": "Defining stack operations"
+          }
+        ]
+      },
+      "latency_seconds": 2.416
+    }
+  ],
+  "note": "Synthetic cases; semantic judgments require human review.",
+  "success_rate": 1.0
+}

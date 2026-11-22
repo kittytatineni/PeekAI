@@ -1,0 +1,219 @@
+{
+  "created_utc": "20261120T165211Z",
+  "split": "held_out",
+  "model": "scx-GLM-5.3",
+  "cases": [
+    {
+      "id": "hold-syllabus-01",
+      "task": "syllabus",
+      "status": "ok",
+      "course_code_match": true,
+      "course_name_match": true,
+      "assessment_name_recall": 1.0,
+      "assessment_name_baseline_recall": 0.0,
+      "topic_count": 4,
+      "output": {
+        "course_code": "COMP8882",
+        "course_name": "Introduction to Databases",
+        "overview": "Students learn relational data modelling, SQL querying, database normalisation and transactions.",
+        "topics": [
+          {
+            "title": "Relational Models and Keys",
+            "subtopics": [
+              "Relational models",
+              "Keys"
+            ],
+            "learning_outcomes": [],
+            "prerequisites": [],
+            "source_evidence": "Week 1 relational models and keys"
+          },
+          {
+            "title": "SQL SELECT and JOIN Queries",
+            "subtopics": [
+              "SQL SELECT",
+              "JOIN queries"
+            ],
+            "learning_outcomes": [
+              "Construct SQL queries"
+            ],
+            "prerequisites": [],
+            "source_evidence": "Week 2 SQL SELECT and JOIN queries"
+          },
+          {
+            "title": "Normalisation: First, Second and Third Normal Forms",
+            "subtopics": [
+              "First normal form",
+              "Second normal form",
+              "Third normal form"
+            ],
+            "learning_outcomes": [
+              "Normalise relational schemas"
+            ],
+            "prerequisites": [],
+            "source_evidence": "Week 3 first, second and third normal forms"
+          },
+          {
+            "title": "Transactions and ACID Properties",
+            "subtopics": [
+              "Transactions",
+              "ACID properties"
+            ],
+            "learning_outcomes": [
+              "Explain transaction properties"
+            ],
+            "prerequisites": [],
+            "source_evidence": "Week 4 transactions and ACID properties"
+          }
+        ],
+        "assessments": [
+          {
+            "name": "SQL Lab",
+            "date": "12 May 2027",
+            "weight": "15%"
+          },
+          {
+            "name": "Database Design Project",
+            "date": "2 June 2027",
+            "weight": "35%"
+          },
+          {
+            "name": "Final Exam",
+            "date": "18 June 2027",
+            "weight": "50%"
+          }
+        ],
+        "study_notes": [
+          "This outline is synthetic and intended solely for evaluation."
+        ]
+      },
+      "latency_seconds": 8.946
+    },
+    {
+      "id": "hold-plan-01",
+      "task": "study_plan",
+      "status": "ok",
+      "model_attempts": 1,
+      "max_token_limits": [
+        3000
+      ],
+      "first_attempt_success": true,
+      "days_in_range": true,
+      "within_weekly_budget": true,
+      "total_minutes": 120,
+      "output": {
+        "title": "Plan",
+        "rationale": "Relational models and keys is the stated prerequisite for both SQL queries and normalisation, so it is studied first; all activities are recommendations only, not official course requirements.",
+        "days": [
+          {
+            "day": 1,
+            "focus": "Relational models and keys",
+            "objective": "Understand tables, primary keys, and foreign keys as the foundation for SQL and normalisation",
+            "activities": [
+              "Recommended: sketch a small example schema marking primary and foreign keys",
+              "Review key definitions from your course notes"
+            ],
+            "estimated_minutes": 30,
+            "priority": "High"
+          },
+          {
+            "day": 2,
+            "focus": "SQL SELECT and JOIN queries",
+            "objective": "Practise writing SELECT and JOIN queries on sample tables",
+            "activities": [
+              "Recommended: write SELECT queries, then JOIN two tables using a shared key",
+              "Review and correct any queries that return wrong results"
+            ],
+            "estimated_minutes": 40,
+            "priority": "High"
+          },
+          {
+            "day": 3,
+            "focus": "Database normalisation",
+            "objective": "Understand the normalisation concepts covered in your course",
+            "activities": [
+              "Recommended: take an unnormalised example table and normalise it step by step",
+              "Review how keys from Day 1 relate to splitting tables"
+            ],
+            "estimated_minutes": 30,
+            "priority": "High"
+          },
+          {
+            "day": 4,
+            "focus": "Review and combined practice",
+            "objective": "Consolidate SQL querying and normalisation understanding",
+            "activities": [
+              "Recommended: redo your hardest JOIN query from Day 2",
+              "Review normalisation steps with a short self-quiz"
+            ],
+            "estimated_minutes": 20,
+            "priority": "Medium"
+          }
+        ],
+        "next_steps": [
+          "review progress",
+          "repeat the weakest JOIN or normalisation exercises",
+          "adjust time per topic based on Day 4 results"
+        ]
+      },
+      "latency_seconds": 6.045
+    },
+    {
+      "id": "hold-quiz-01",
+      "task": "quiz",
+      "status": "ok",
+      "count_match": true,
+      "all_have_prompts": true,
+      "output": {
+        "questions": [
+          {
+            "id": "q1",
+            "type": "mcq",
+            "prompt": "Students has IDs 1, 2, 3. Enrollments has student IDs 1, 3, 4. How many rows does SELECT * FROM Students INNER JOIN Enrollments ON Students.id = Enrollments.student_id return?",
+            "options": [
+              "2",
+              "3",
+              "4",
+              "1"
+            ],
+            "answer_index": 0,
+            "ideal_answer": "2",
+            "explanation": "INNER JOIN returns only rows with matching join keys in both tables: IDs 1 and 3 match; IDs 2 and 4 are excluded.",
+            "skill": "Distinguishing INNER JOIN row matching"
+          },
+          {
+            "id": "q2",
+            "type": "written",
+            "prompt": "Students (left table) has IDs 1, 2, 3; Enrollments (right table) has IDs 1, 3, 4. Describe the rows returned by a LEFT JOIN of Students to Enrollments, including any NULL values.",
+            "options": [],
+            "answer_index": null,
+            "ideal_answer": "Marking guide: all 3 left rows returned (1 mark); IDs 1 and 3 matched with enrollment data (1 mark); ID 2 returned with NULL right-side fields (1 mark); ID 4 excluded (1 mark).",
+            "explanation": "",
+            "skill": "Predicting LEFT JOIN output with NULLs"
+          }
+        ]
+      },
+      "latency_seconds": 4.197
+    },
+    {
+      "id": "hold-mark-01",
+      "task": "mark",
+      "status": "ok",
+      "absolute_error": 0.0,
+      "within_0_1": true,
+      "keyword_baseline_error": 0.5,
+      "output": {
+        "score": 1.0,
+        "feedback": "The response correctly and concisely explains both join types, covering all required elements from the marking guide.",
+        "strengths": [
+          "Correctly states INNER JOIN returns only matching-key rows",
+          "Correctly notes LEFT JOIN keeps unmatched left rows with NULL right-side values"
+        ],
+        "improvements": [],
+        "next_step": "Practice writing example queries with sample tables to see how unmatched rows appear in LEFT JOIN versus INNER JOIN results."
+      },
+      "latency_seconds": 1.688
+    }
+  ],
+  "note": "Synthetic cases; semantic judgments require human review.",
+  "success_rate": 1.0
+}
