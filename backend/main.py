@@ -1,6 +1,6 @@
 from io import BytesIO
 from typing import Any
-
+import os
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
@@ -16,6 +16,11 @@ app.add_middleware(
         "http://localhost:5174",
         "http://127.0.0.1:5173",
         "http://127.0.0.1:5174",
+        *(
+            [os.environ["FRONTEND_ORIGIN"].rstrip("/")]
+            if os.getenv("FRONTEND_ORIGIN")
+            else []
+        ),
     ],
     allow_credentials=True,
     allow_methods=["*"],
