@@ -27,7 +27,8 @@ export type StudyPlan = {
   next_steps: string[]
 }
 
-const API_BASE_URL = 'http://localhost:8000'
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'
 
 async function readError(response: Response, fallback: string): Promise<string> {
   try {
